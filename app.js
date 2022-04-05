@@ -1,7 +1,14 @@
 const express = require('express');
 const app = express();
 
-app.listen(3000, ()=> {
+let rutasMain = require('./routes/main.js');
 
-    console.log('Servidor funkeando...');
-});
+app.use(express.static('public'));
+// const publicPath = path.resolve(__dirname);
+// app.use(express.static(publicPath));
+
+app.listen(3001, ()=> {
+    console.log('Servidor funkeando...'); });
+
+
+app.use('/', rutasMain);
