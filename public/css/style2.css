@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+body {
+  background-color: rgb(32, 29, 29);
+}
+
+h1,
+h2 {
+  font-family: "Rubik Moonrocks", cursive;
+  color: lightskyblue;
+}
+
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  border-bottom: 1px solid lightskyblue;
+  color: lightskyblue;
+}
+p {
+  color: lightskyblue;
+  font-family: "Lato", sans-serif;
+}
+
+.par {
+  color: blue;
+}
+.impar {
+  color: gold;
+}
+
+div.caja-1 {
+  border: 5px solid rgba(140, 140, 140, 0.4);
+  border-radius: 3%;
+  display: flexbox;
+}
+div.caja-2 {
+  border: 5px solid rgba(140, 140, 140, 0.7);
+  border-radius: 20%;
+  display: flexbox;
+}

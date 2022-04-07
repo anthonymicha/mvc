@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Index - Porfolio</title>
+</head>
+
+<body>
+    <h1>Probando EJS</h1>
+    <div class="caja-1">
+        <% for(let i=1; i<=5; i++) {%>
+            <div class="caja-2">
+                <h4>Vuelta <%= i%>
+                </h4>
+                <% if (i%2==0) {%>
+                    <p class="par">
+                        ZZZZZZ
+                    </p>
+                    <% }else {%>
+                        <p class="impar">
+                            ZZZZZZZ
+                        </p>
+                        <% }%>
+            </div>
+
+            <% }%>
+    </div>
+    <div class="caja-1">
+        <h4>Vuelta n</h4>
+        <p>ZZZZ</p>
+
+    </div>
+</body>
+
+</html>

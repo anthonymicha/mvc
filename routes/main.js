@@ -10,9 +10,7 @@ router.get('/', mainController.home)
 
 router.get('/contacto', mainController.contacto);
 router.get('/about', mainController.about);
-
-
-
-
+router.get('/index', mainController.index);
+router.get('/list', mainController.list);
 
 module.exports = router;
